@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  position: relative;
+  overflow: hidden;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.font-size {
+  font-size: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#panel {
+  padding: 1rem 3rem 0 3rem;
+}
+
+input {
+  width: 10rem;
+  font-size: 1.1rem;
+  text-align: end;
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 5px solid gray;
+  border-radius: 5px;
+  background: transparent;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}

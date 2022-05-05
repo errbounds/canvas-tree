@@ -1,4 +1,5 @@
 import data from "./data.js";
+
 export default class Branch {
   constructor(startX, startY, endX, endY, id) {
     this.id = id;
