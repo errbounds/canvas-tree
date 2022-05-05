@@ -4,10 +4,12 @@
 
 ## build
 
----
+```
+git clone https://github.com/invscks/canvas-tree.git
+npm install
+npm run build
+```
 
-```
-npm init -y
-npm install --save-dev webpack webpack-cli
-npx webpack
-```
+## demo
+
+[https://invscks.github.io/canvas-tree/](https://invscks.github.io/canvas-tree/)
